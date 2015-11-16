@@ -55,7 +55,7 @@ app.axes.Units    = 'Normalized';
 app.axes.XLim     = [0,1];
 app.axes.YLim     = [0,1];
 app.axes.Position = [0,0,1,1];
-im = imread('@enigmaApp\images\blackBackground.png');
+im = imread(fullfile('@enigmaApp','images','blackBackground.png'));
 imagesc(im,'Parent',app.axes);
 box(app.axes,'Off');
 app.axes.XTick    = [];

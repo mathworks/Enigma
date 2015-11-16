@@ -23,7 +23,7 @@ app.notepadAxes          = axes('Parent',app.figure);
 app.notepadAxes.Units    = 'Normalized';
 app.notepadAxes.Position = [app.notepadImageStruct.XStart 0 1-app.notepadImageStruct.XStart 1];
 
-img = imread('@enigmaApp\images\notepad3.png');
+img = imread(fullfile('@enigmaApp','images','notepad3.png'));
 h = imagesc(rot90(img),'Parent',app.notepadAxes);
 % imagesc(app.notepadImageStruct.Image,'Parent',app.notepadAxes);
 box(app.notepadAxes,'Off');

@@ -80,7 +80,7 @@ classdef enigmaRotorUI < handle
             if (prev == 0)
                 prev = 5;
             end
-            newImageFile = ['@enigmaRotorUI\images\wheel' num2str(prev) '.png'];
+            newImageFile = fullfile('@enigmaRotorUI','images',['wheel' num2str(prev) '.png']);
 
             img = imread(newImageFile);
 
@@ -97,7 +97,7 @@ classdef enigmaRotorUI < handle
             if (next == 0)
                 next = 5;
             end
-            newImageFile = ['@enigmaRotorUI\images\wheel' num2str(next) '.png'];
+            newImageFile = fullfile('@enigmaRotorUI','images',['wheel' num2str(next) '.png']);
 
             img = imread(newImageFile);
 

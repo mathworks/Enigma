@@ -14,8 +14,8 @@ classdef enigmaApp < handle
         numLinesLim     = 12;
         
         % Image files
-        machineImageFile = '@enigmaApp\images\enigma_Fixed_Perspective_Removed_Rotors_Shrunk.png';
-        notepadImageFile = '@enigmaApp\images\diaryBackgroundCreated2.png';%'@enigmaApp\images\diaryWhiteBackgroundCleanCropped.png';
+        machineImageFile = fullfile('@enigmaApp','images','enigma_Fixed_Perspective_Removed_Rotors_Shrunk.png');
+        notepadImageFile = fullfile('@enigmaApp','images','diaryBackgroundCreated2.png');
         
         % Location of keyboard keys
         pushKeyLoc = {'A',0.169,0.218;

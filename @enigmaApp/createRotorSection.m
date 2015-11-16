@@ -11,7 +11,7 @@ for i = 1:nRotors
     haxDispPatch = axes('units','normalized',...
                         'Position',app.rotorDispPatchLoc(i,:),...
                         'Parent',app.figure);
-    img = imread('@enigmaRotorUI\images\blankGauge.png');
+    img = imread(fullfile('@enigmaRotorUI','images','blankGauge.png'));
     image(img,'Parent',haxDispPatch);  
     haxDispPatch.Visible = 'off';
 

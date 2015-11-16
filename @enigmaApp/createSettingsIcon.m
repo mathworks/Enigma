@@ -5,7 +5,7 @@ function createSettingsIcon(app)
 % Copyright 2015, The MathWorks Inc
 
 % Read in gear image
-settingsImage           = '@enigmaApp\images\gear.png';
+settingsImage           = fullfile('@enigmaApp','images','Gear.png');
 [imageData,~,alphaData] = imread(settingsImage);
 imSize                  = size(imageData);
 normalizedHeight        = 0.1;
