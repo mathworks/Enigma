@@ -20,5 +20,4 @@ You can also modify the position of the rotors by hovering over the rotor images
 
 You can also run the simulation completely from the MATLAB command line. See the startHere.m file for a demonstration.
 
-
-
+[![View Enigma on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/51009-enigma)
